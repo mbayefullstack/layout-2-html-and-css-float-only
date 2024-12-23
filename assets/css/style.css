@@ -103,7 +103,7 @@ header > nav {
   float: left;
 }
 
-nav > ul > li {
+ul > li {
   display: inline;
   margin-left: 2rem;
 }
@@ -112,4 +112,55 @@ nav > ul > li > a {
   text-decoration: none;
   color: blue;
   font-weight: bold;
+}
+
+
+/*
+=========================
+MAIN SECTION
+=========================
+*/
+
+main:before, main:after {
+  content: "";
+  display:table;
+}
+
+main:after {
+  clear: both;
+}
+main {
+  clear: both;
+  margin-left: 23rem;
+  margin-top: 5rem;
+}
+main > section {
+  float: left;
+}
+
+main > section:last-child {
+  width: 28vw;
+  margin-left: 2rem; 
+}
+
+main > section > h1 {
+  margin-top : 10rem; 
+  font-size: 3.5rem;
+}
+
+main > section > p {
+  font-size: 1.5rem;
+}
+
+main > section >ul {
+  
+  margin-top: 2rem;
+}
+
+main > section >ul  a {
+  font-size: 1rem;
+  border-radius: 10px;
+  background: blue;
+  color: white;
+  padding: 1rem;
 }
