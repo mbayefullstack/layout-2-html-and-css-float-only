@@ -164,3 +164,18 @@ main > section >ul  a {
   color: white;
   padding: 1rem;
 }
+
+
+/*
+=========================
+ANOTHER SECTION
+=========================
+*/
+
+
+main + section > h4 {
+    margin: 6rem  40rem;
+    font-size: 3rem;
+    clip-path: polygon(100% 18%, 100% 50%, 100% 100%, 0% 100%, 0 55%, 0% 0%);
+  
+  } 
